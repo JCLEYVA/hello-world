@@ -1,19 +1,60 @@
+/* ANATOMY OF CSS --> selector {property; value;} */
 
-header {background-color: #8CB6B5(58, 44, 31, 0.421);}
+h1 {width: 100%;
+text-align: right;}
 
-* {border: 2px solid black;}
+head {border-color: #87a0a6;}
 
-h1 {padding: 20px; }
+nav ul {list-style: none;
+border-color:#87a0a6;}
+nav li {display: inline;
+color: black;
+padding: 10px;
+border-color: #87a0a6;}
 
-img {width: 100px;
+body {background-color: whitesmoke;
+color: #cfb4ac;
+width: 75%;
+font-family: Verdana;
+font size: 18;}
 
-}
+header {background-color: #87a0a6(58, 44, 31, 0.421);
+  color: black;
+  font-family: verdana;
+  font-size: 24;
+border-color: #87a0a6;}
 
-#cup {width: ;} (image)
+footer {color: black;
+font-family: verdana;}
 
-classes is how you can group things together that follow the same rules.
-classes and IDs.
-period will look for element classes
+* {border: 2px solid whitesmoke;}
+
+#logo {width: 2px;}
+#espressocup {width: 82%;}
+#flavorbean {width: 82%;}
+#threebeans {width: 82%;}
+#cincoffee {width: 82%;}
+.regions {width: 26%;
+  height: 20%;
+display: inline-block;}
+
+.coffeepassport 
+
+.cp 
+
+.roasting {align-content: center;
+text-align: center;}
+
+.footers {align-content: center;
+text-align: center;
+padding: 5%;}
+.title {align-content: right;
+font-size: 400%;
+font-family: Verdana;}
+
+
+article img {width: 150px}
+
 
 .espresso {width: ;}
 
@@ -21,12 +62,4 @@ stacking: change default behavior with display property from stacked blocks to i
 
 .coffee {width: 20 px;
         display: inline-block;}
-
-  If I want my h1 to float to the left of the page and elements to float to the :right
-  
-  #cup {float: left}
-  header {height: 200px;
-}
-
-ul {list-style-type: none ;} us ID for specific elements
 
