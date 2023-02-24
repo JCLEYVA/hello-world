@@ -1,65 +1,116 @@
 /* ANATOMY OF CSS --> selector {property; value;} */
 
-h1 {width: 100%;
-text-align: right;}
+h1 {
+  width: 100%;
+  text-align: right;
+}
 
-head {border-color: #87a0a6;}
+head {
+  border-color: #87a0a6;
+}
 
-nav ul {list-style: none;
-border-color:#87a0a6;}
-nav li {display: inline;
-color: black;
-padding: 10px;
-border-color: #87a0a6;}
+<html><head><style>img {
+  float: :content width: 20px;
+  padding: 5px
+}
 
-body {background-color: whitesmoke;
-color: #cfb4ac;
-width: 75%;
-font-family: Verdana;
-font size: 18;}
+</style></head><body><img src="https://cdn.pixabay.com/photo/2017/09/09/15/46/vitamin-2732432_1280.jpg" alt="Love at sea"><p>My bounty is as boundless as the sea,
+My love as deep;
 
-header {background-color: #87a0a6(58, 44, 31, 0.421);
+the more I give to thee,
+The more I have,
+for both are infinite. </p></body></html>nav ul {
+  list-style: none;
+  border-color: #87a0a6;
+}
+
+nav li {
+  display: inline;
+  color: black;
+  padding: 10px;
+  border-color: #87a0a6;
+}
+
+body {
+  background-color: whitesmoke;
+  color: #cfb4ac;
+  width: 75%;
+  font-family: Verdana;
+  font size: 18;
+}
+
+header {
+  background-color: #87a0a6(58, 44, 31, 0.421);
   color: black;
   font-family: verdana;
   font-size: 24;
-border-color: #87a0a6;}
+  border-color: #87a0a6;
+}
 
-footer {color: black;
-font-family: verdana;}
+footer {
+  color: solid black;
 
-* {border: 2px solid whitesmoke;}
+  font-family: verdana;
+}
 
-#logo {width: 2px;}
-#espressocup {width: 82%;}
-#flavorbean {width: 82%;}
-#threebeans {width: 82%;}
-#cincoffee {width: 82%;}
-.regions {width: 26%;
+* {
+  border: 2px solid whitesmoke;
+}
+
+#logo {
+  width: 2px;
+}
+
+#espressocup {
+  width: 82%;
+}
+
+#flavorbean {
+  width: 82%;
+}
+
+#threebeans {
+  width: 82%;
+}
+
+#cincoffee {
+  width: 82%;
+}
+
+.regions {
+  width: 26%;
   height: 20%;
-display: inline-block;}
+  display: inline-block;
+}
 
-.coffeepassport 
+.coffeepassport .cp .roasting {
+  align-content: center;
+  text-align: center;
+}
 
-.cp 
+.footers {
+  align-content: center;
+  text-align: center;
+  padding: 5%;
+}
 
-.roasting {align-content: center;
-text-align: center;}
-
-.footers {align-content: center;
-text-align: center;
-padding: 5%;}
-.title {align-content: right;
-font-size: 400%;
-font-family: Verdana;}
-
-
-article img {width: 150px}
+.title {
+  align-content: right;
+  font-size: 400%;
+  font-family: Verdana;
+}
 
 
-.espresso {width: ;}
+article img {
+  width: 150px
+}
 
-stacking: change default behavior with display property from stacked blocks to inline block
 
-.coffee {width: 20 px;
-        display: inline-block;}
+.espresso {
+  width: ;
+}
 
+stacking: change default behavior with display property from stacked blocks to inline block .coffee {
+  width: 20 px;
+  display: inline-block;
+}
